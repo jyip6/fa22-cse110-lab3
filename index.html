@@ -7,6 +7,136 @@
     <title>Meeting Minutes</title>
 
     <style type="text/css">
+        html {
+    font-family: serif;
+}
+
+body {
+    background-color: rgb(0, 128, 0, 0.3);/* green */
+}
+
+@media (max-width: 500px) {
+body {
+    background-color:rgb(202, 78, 29);
+}
+}
+
+
+h1 {
+    font-size: 1.5cm;
+    padding: 25px 50px 75px 100px
+}
+
+h2 {
+    text-align-last: left;
+    text-decoration: underline;
+}
+
+h3 {
+    background: hsl(150deg 30% 60%);
+    font-size: 0.5cm;
+}
+
+.Brainstorming{
+    
+    margin: 1cm 1cm 1cm 1cm;
+    
+}
+
+#Date{
+    margin: 1cm 1cm 1cm 1cm;
+}
+
+
+.list {
+    
+    position: static;
+    display:block;
+    height: 15ch ;
+    width: 1ex ;
+    margin-top: auto;
+    
+}
+
+.box  {
+    position: relative;
+    top: 5px; left: 40px;
+    margin-top: 3ch;
+    padding-top: 1mm;
+    padding-left: 0.1in;
+    border: 1px solid black;
+    border-radius : 20px;
+    background-color: #eee;
+    max-width: 500px;
+}
+
+.storming {
+    position: fixed;
+    top: 5px; left: 40px;
+    background-color: yellow;  
+    min-width: none;
+    display: inline-block;
+}
+
+.flex-boxes {
+display: flex;
+background-color: rgb(47, 78, 109);
+}
+
+.flex-boxes > div {
+background-color: #eee;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 100px;
+font-size: 30px;
+}
+
+.grid-boxes{
+display: grid;
+grid-gap: 10px;
+background-color: #923b20;
+padding: 30px;
+}
+
+.grid-boxes> div {
+background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+padding: 10px 0;
+font-size: 30px;
+}
+
+button:hover {
+    color: brown;
+}
+
+a:active {
+    background-color: rgb(10, 10, 10);
+}
+
+*.warning{
+    color: red
+}
+
+a[target] {
+background-color: rgb(255, 94, 0);
+}
+
+div p {
+background-color: yellow;
+}
+
+li ~ li {
+ background-color: yellow;
+}
+
+div + p {
+ background-color: red;
+}
+
+li:first-of-type + li {
+    color: red;
+}
     
     
 
