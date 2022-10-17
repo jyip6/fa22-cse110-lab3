@@ -1,1 +1,2 @@
 # Standup notes template
+--------------------------
